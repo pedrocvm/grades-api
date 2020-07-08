@@ -1,7 +1,6 @@
 {
   "name": "grade-api",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node -r dotenv/config --experimental-modules app.js",
@@ -20,5 +19,14 @@
     "winston": "^3.3.3",
     "winston-mongodb": "^5.0.1"
   },
-  "type": "module"
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrocvm/grades-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pedrocvm/grades-api/issues"
+  },
+  "homepage": "https://github.com/pedrocvm/grades-api#readme",
+  "description": ""
 }
